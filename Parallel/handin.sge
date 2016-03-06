@@ -1,0 +1,5 @@
+#!/bin/bash
+#$ -cwd -V
+#$ -pe mpi 64
+
+mpiexec -n 4 ./pgm_reconstructor_parallel
